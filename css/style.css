@@ -193,7 +193,76 @@ img{
 
 
 
+/* Cloud */
 
+.cloud{
+    background-color: #047aed;
+    color: white;
+    margin-top: 30px;
+}
+
+.cloud .grid{
+    grid-template-columns: 5fr 3fr;
+    gap: 0;
+}
+
+.cloud h1 {
+    font-size: 2.5rem;
+}
+
+.btn-dark{
+    background-color: #002240;
+    margin-top: 10px;
+}
+
+
+/* Languages */
+
+.laguages > h2{
+    font-size: 30px;
+}
+
+.laguages .card{
+    text-align: center;
+    margin: 18px 10px 14px;
+    transition: 0.5s;
+}
+
+.laguages .card:hover{
+    transform: translateY(-10px);
+}
+
+.card h4{
+    margin-bottom: 8px;
+}
+
+
+.my-5{
+    margin-top: 30px;
+    margin-bottom: 35px;
+}
+
+.laguages .flex{
+    flex-wrap: wrap;
+}
+
+
+/* Footer */
+
+.footer{
+    background-color: #002240;
+    height: 200px;
+    color: white;
+    margin-top: 20px;
+}
+
+.links ul li a{
+    color: white;
+}
+
+.socials {
+    letter-spacing: 10px;
+}
 
 /* Utilities */
 
